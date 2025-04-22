@@ -10,6 +10,7 @@ async def scrape_note_detail(page, note_url):
         title = await page.locator("h1").first.inner_text()
     except:
         title = "❌ 无法获取标题"
+        test
 
     try:
         author = await page.locator("a.username").first.inner_text()
