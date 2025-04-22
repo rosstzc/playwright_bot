@@ -1,0 +1,8 @@
+2025/04/22-07:15:13.861 2e03 Reusing MANIFEST /Users/miketam/PycharmProjects/notebook/playwright_bot/user_data/Default/Local Storage/leveldb/MANIFEST-000001
+2025/04/22-07:15:13.872 2e03 Recovering log #3
+2025/04/22-07:15:13.873 2e03 Level-0 table #3: started
+2025/04/22-07:15:13.887 2e03 Level-0 table #3: 25596 bytes OK
+2025/04/22-07:15:13.887 2e03 Recovering log #4
+2025/04/22-07:15:13.888 2e03 Reusing old log /Users/miketam/PycharmProjects/notebook/playwright_bot/user_data/Default/Local Storage/leveldb/000004.log 
+2025/04/22-07:15:13.899 2e03 Delete type=0 #3
+2025/04/22-07:15:13.899 2e03 Delete type=2 #5
