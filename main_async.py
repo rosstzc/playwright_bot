@@ -10,7 +10,6 @@ async def scrape_note_detail(page, note_url):
         title = await page.locator("h1").first.inner_text()
     except:
         title = "❌ 无法获取标题"
-        test
 
     try:
         author = await page.locator("a.username").first.inner_text()
@@ -35,12 +34,13 @@ async def scrape_note_detail(page, note_url):
     print("👤 作者：", author)
     print("💬 评论：")
     for idx, c in enumerate(comments[:10], 1):
-        print(f"  {idx}. {c.strip().replace('\\n', ' ')}")
+        c = c.strip().replace('\r\n', '\n').replace('\n', ' ')  # 统一换行符处理
+        print(f"  {idx}. {c}")
 
 async def main():
     NOTE_URL = "https://www.xiaohongshu.com/explore/67237f07000000003c01ded9?xsec_token=ABqVcNlNnS8s75V1iKcFpjmq4bflwuwmhN1L0gfInQFWY=&xsec_source=pc_search&source=web_explore_feed"
 
-    if not is_logged_in():
+    if not is_logged_in():  # 确保 is_logged_in 是同步的
         await login_and_save_cookie()
 
     async with async_playwright() as p:

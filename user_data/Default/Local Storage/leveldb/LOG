@@ -1,3 +1,6 @@
-2025/04/22-07:17:12.059 5003 Reusing MANIFEST /Users/miketam/PycharmProjects/notebook/playwright_bot/user_data/Default/Local Storage/leveldb/MANIFEST-000001
-2025/04/22-07:17:12.072 5003 Recovering log #4
-2025/04/22-07:17:12.073 5003 Reusing old log /Users/miketam/PycharmProjects/notebook/playwright_bot/user_data/Default/Local Storage/leveldb/000004.log 
+2025/04/23-17:52:01.094 7ca0 Reusing MANIFEST C:\Users\Administrator\Desktop\notebook\playwright_bot\user_data\Default\Local Storage\leveldb/MANIFEST-000001
+2025/04/23-17:52:01.100 7ca0 Recovering log #4
+2025/04/23-17:52:01.103 7ca0 Reusing old log C:\Users\Administrator\Desktop\notebook\playwright_bot\user_data\Default\Local Storage\leveldb/000004.log 
+2025/04/23-17:52:09.379 76d4 Level-0 table #7: started
+2025/04/23-17:52:09.385 76d4 Level-0 table #7: 106400 bytes OK
+2025/04/23-17:52:09.388 76d4 Delete type=0 #4
